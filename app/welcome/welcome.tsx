@@ -70,9 +70,9 @@ export function Welcome() {
             </div>  
           </div>
 
-          <CustomButton />
-          <CustomButton />
-          <CustomButton />
+          <CustomButton customButtonName={"Contact"} />
+          <CustomButton customButtonName={"Shop"} />
+          <CustomButton customButtonName={"Landing page"} />
           <Link to="/about">About page</Link>
         </header>
         <div className="max-w-[300px] w-full space-y-6 px-4">
