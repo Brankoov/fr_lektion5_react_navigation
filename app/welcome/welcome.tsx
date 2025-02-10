@@ -3,6 +3,7 @@ import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
 import { use, useState } from "react";
 import type { User } from "../types/User";
+import { CustomButton } from "~/components/CustomButton";
 
 export function Welcome() {
 
@@ -68,6 +69,10 @@ export function Welcome() {
               <p>User password: {user.password}</p>              
             </div>  
           </div>
+
+          <CustomButton />
+          <CustomButton />
+          <CustomButton />
           <Link to="/about">About page</Link>
         </header>
         <div className="max-w-[300px] w-full space-y-6 px-4">
